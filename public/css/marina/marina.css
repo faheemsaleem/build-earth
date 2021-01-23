@@ -1,0 +1,521 @@
+/* html{
+    scroll-behavior: smooth;
+} */
+
+body{
+    background-color: #020202;
+}
+
+.alnoor-bg-img{
+    background-image: url('../../img/WestMarina/Mask Group 123.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 100vh;
+    padding-right: 0px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alnoor-layer{
+    background-color:  #020202;
+    opacity: 0.7;
+    height: 100vh;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.alnoorLogo{
+    position: absolute;
+}
+.alnoorHeroLogo{
+    width: 60%;
+}
+
+
+/* navbar */
+.alnoor-navbar-main{
+    background-color: #020202;
+    height: auto;
+    z-index: 1;
+    box-shadow: 0px 0px 10px 0px #DDBA56;
+}
+.alnoor-nav-logo{
+    padding: 10px 0px;
+    width: 28%;
+}
+.alnoor-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 28px 0px;
+}
+.alnoor-nav li{
+    list-style: none;
+    /* display: flex; */
+}
+.alnoor-nav li a{
+    color: #DDBA56;
+    font-size: 20px;
+}
+.active-nav ,.alnoor-nav li a:hover{
+    text-decoration: none;
+    border-bottom: 2px solid #DDBA56;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .alnoor-about {
+    padding-top: 100px;
+}
+
+/* aljalil about */
+
+.alnoor-about{
+    margin-top: 100px;
+}
+.alnoor-about-heading{
+    font-size: 75px;
+    color: #DDBA56;
+}
+.alnoor-about-small-heading{
+    color: #DDBA56;
+}
+.alnoor-about-paragraph{
+    color: #909090;
+    font-size: 20px;
+}
+.slide-img{
+    float: right;
+    width: 74%;
+}
+.alnoor-rectangle{
+    width: 73%;
+    position: absolute;
+    right: 40px;
+    top: 50px;
+}
+.subtraction{
+    width: 14%;
+}
+.video-rect{
+    width: 71%;
+}
+.video-thumbnail{
+    width: 68%;
+    position: absolute;
+    left: 215px;
+    top: 20px;
+    cursor: pointer;
+}
+.video-section{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.map-bg-img{
+    position: absolute;
+    top: 0px;
+    width: 97%;
+}
+.alnoor-map{
+    border: 20px solid #020202;
+}
+.video-detail{
+    background-color: #DDBA56;
+    height: auto;
+    width: 500px;
+    position: absolute;
+    top: 680px;
+    right: -95px;
+    padding: 35px;
+}
+.video-detail-heading{
+    color: #fff;
+    font-size: 60px;
+}
+.video-detail-paragraph{
+    color: #fff;
+    font-size: 20px;
+}
+.find-map-btn{
+    color: #fff;
+    font-size: 20px;
+}
+.find-map-btn:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.map-white-arrow{
+    margin-top: -22px;
+    width: 60%;
+}
+
+
+/* aljalil payment plans */
+
+.alnoor-payment {
+    margin-top: 500px;
+    background-image: url('../../img/alnoorMainPage/Group 1437.png');
+    background-size: cover;
+    width: 100%;
+}
+.table{
+    border-collapse: separate;
+    border-spacing: 0px 15px;
+}
+.nav-tabs {
+    border-bottom: 4px solid #DDBA56;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color: #fff;
+    background-color: #DDBA56;
+    width: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+    border-color: #DDBA56;
+    padding: 13px 15px;
+    margin-top: 0px;
+    height: 100%;
+    font-weight: 600;
+}
+.nav-tabs .nav-link{
+    margin: 0px 10px 0px 0px;
+    background-color: #DDBA56;
+    width: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+    border-color: #DDBA56;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 17px;
+    height: 35px;
+}
+.nav-link:hover {
+    border-color: #DDBA56 !important;
+}
+
+.aljalil-table{
+    margin-top: 100px;
+}
+.thead-green{
+    background-color: #DDBA56;
+    color: #fff;
+    box-shadow: 0px 0px 9px 0px grey;
+}
+.table thead th{
+    font-size: 13px;
+    font-weight: 400;
+    border-bottom: 2px solid #DDBA56;
+    padding: 20px 10px;
+}
+.aljalil-table-row{
+    background-color: #fff;
+    box-shadow: 0px 0px 9px 0px #DDBA56;
+}
+
+/* amenities */
+.amenities{
+    margin-top: 100px;
+    border: 3px solid #DDBA56;
+}
+.amenities-heading-section{
+    background-color: #DDBA56;
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    top: -55px;
+    left: -3px;
+}
+.amenities-heading{
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    padding: 20px 0px;
+}
+.amenities-logos{
+    padding: 70px 25px;
+}
+.slide:hover .ament1{
+    display: none;
+}
+.slide:hover .ament2{
+    display: none;
+}
+.slide:hover .ament3{
+    display: none;
+}
+.slide:hover .ament4{
+    display: none;
+}
+.slide:hover .ament5{
+    display: none;
+}
+.slide:hover .ament6{
+    display: none;
+}
+.slide:hover .ament7{
+    display: none;
+}
+.slide:hover .ament8{
+    display: none;
+}
+.slide:hover .ament9{
+    display: none;
+}
+.slide:hover .ament10{
+    display: none;
+}
+.slide:hover .ament11{
+    display: none;
+}
+.slide:hover .ament12{
+    display: none;
+}
+.amenities-content{
+    background-color: #f0bf3a;
+    opacity: 0.8;
+    position: absolute;
+    height: 235px;
+    top: 0px;
+    width: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amenities-text{
+    color: #000;
+    opacity: 1;
+}
+
+/* footer */
+.aljalil-footer-width{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.aljalil-footer{
+    margin-top: 100px
+}
+.footer-aljalil{
+    background-color: #020202;
+    /* height: auto; */
+    box-shadow: 0px 10px 10px 10px #DDBA56;
+}
+.aljalil-footer-text{
+    color: #fff;
+    padding: 30px 0px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+@media(max-width: 1440px){
+    .video-thumbnail{
+        left: 225px;
+    }
+}
+
+@media(max-width: 1380px){
+    .video-thumbnail{
+        left: 215px;
+    }
+}
+@media(max-width: 1024px){
+    .video-detail{
+        top: 565px;
+    }
+    .amenities-content{
+        height: 180px;
+        width: 180px;
+        text-align: center;
+    }
+    .video-thumbnail{
+        left: 164px;
+    }
+    .video-link-small-screen{
+        height: 400px;
+    }
+}
+
+@media(max-width: 768px){
+    .alnoorHeroLogo {
+    width: 40%;
+}
+    .video-rect{
+        width: 70%;
+    }
+    .alnoor-nav-logo{
+        width: 38%;
+    }
+    .video-detail{
+        top: 415px;
+        width: 400px;
+    }
+    .video-detail-heading{
+        font-size: 50px;
+    }
+    .video-detail-paragraph{
+        font-size: 18px;
+    }
+    .find-map-btn{
+        font-size: 18px;
+    }
+    .map-white-arrow{
+        width: 70%;
+    }
+    .amenities-content{
+        height: 130px;
+        width: 120px;
+        text-align: center;
+    }
+    .video-thumbnail{
+        left: 127px;
+        width: 66%;
+    }
+    .video-link-small-screen {
+    height: 280px;
+}
+}
+
+@media(max-width: 480px){
+    .marina-about {
+    margin-top: 100px;
+}
+    .alnoor-nav-logo{
+        display: none;
+    }
+    .video-detail{
+        left: 30px;
+        top: 440px;
+    }
+    .alnoor-small-screen-content{
+        margin-top: 100px;
+    }
+    .alnoor-about-heading{
+        font-size: 50px;
+    }
+    .head-quick-tour{
+        font-size: 14px;
+    }
+    .builder-logo{
+        text-align: center;
+    }
+    .alnoorHeroLogo {
+        width: 36%;
+    }
+    .map-bg-img{
+        width: 93%;
+    }
+    .alnoor-payment {
+    margin-top: 595px;
+}
+.amenities-content{
+    height: 157px;
+    width: 158px;
+}
+.slide-img{
+    width: 70%;
+}
+.alnoor-rectangle{
+    width: 70%;
+}
+.video-thumbnail {
+    left: 90px;
+    width: 63%;
+}
+.video-link-small-screen {
+    height: 160px;
+}
+}
+@media(max-width: 425px){
+    .video-rect {
+    width: 69%;
+}
+    .alnoor-nav li a {
+        font-size: 15px;
+    }
+    .video-detail{
+        left: 15px;
+    }
+    .amenities-content{
+    height: 131px;
+    width: 131px;
+}
+.video-thumbnail {
+    left: 78px;
+    width: 60%;
+}
+}
+
+@media(max-width: 375px){
+    .video-detail{
+        width: 350px;
+        left: 10px;
+        top: 320px;
+    }
+    .video-detail-heading {
+    font-size: 45px;
+}
+.find-map-btn {
+    font-size: 16px;
+}
+.video-detail-paragraph {
+    font-size: 16px;
+}
+.amenities-content{
+    height: 250px;
+    width: 250px;
+}
+.alnoor-about{
+    margin-top: 50px;
+}
+.marina-about{
+    margin-top: 50px;
+}
+}
+
+@media(max-width: 320px){
+    .head-quick-tour {
+    font-size: 11px;
+    }
+    .builder-logo{
+        margin-left: 70px;
+    }
+    .video-detail{
+        width: 300px;
+        top: 290px;
+    }
+    .alnoor-navbar{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .alnoor-nav li a {
+        font-size: 14px;
+    }
+    .alnoor-about-heading {
+        font-size: 35px;
+    }
+    .video-detail-heading {
+        font-size: 36px;
+    }
+    .map-white-arrow {
+        width: 90%;
+    }
+    .amenities-content{
+        height: 195px;
+        width: 195px;
+    }
+    .video-thumbnail{
+        top: 13px;
+        left: 65px;
+    }
+    .video-link-small-screen {
+    height: 115px;
+}
+}

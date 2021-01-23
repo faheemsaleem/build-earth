@@ -1,0 +1,390 @@
+.header-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-page{
+    background-color: #AA1D45;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    
+}
+.main-section{
+        position: fixed;
+        z-index: 1000;
+        top: 20px;
+}
+.main-section2{
+    position: absolute;
+    top: 20px;
+    z-index: 1000;
+}
+.builder-logo-link{
+    text-align: center;
+}
+.builder-logo{
+    margin-left: 100px;
+    width: 40%;
+}
+.head-quick-tour{
+    
+    border-bottom: 1px solid #F3E9B5;
+}
+.small-screen-tour{
+    display: none;
+}
+.head-quick-tour a{
+    color: #F3E9B5;
+}
+.head-quick-tour a:hover{
+    color: #F3E9B5;
+    text-decoration: none;
+}
+.bg-logo{
+    padding-top: 50px;
+}
+.light-crown{
+    width: 12%;
+}
+
+/* section one style */
+
+.section-one{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-two{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-three{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fixed-circle{
+    position: fixed;
+}
+.bg-circle-img{
+    margin-left: 45px;
+}
+.view-projects-link{
+    position: absolute;
+    top: 170px;
+    left: 275px;
+    font-size: 15px;
+    transform: rotate(-90deg);
+    z-index: 100;
+    border-bottom: 1px solid #F3E9B5;
+}
+.view-projects-link:hover{
+    text-decoration: none;
+    color: #F3E9B5;
+}
+.view-projects{
+    color: #F3E9B5;
+    margin-bottom: 0px;
+    
+}
+.jalil-garden{
+    position: relative;
+    width: 65%;
+    top: 85px;
+}
+.jalil-heading{
+    color: #F3E9B5;
+    position: absolute;
+    font-size: 80px;
+    left: -10px;
+    text-align: center;
+    top: 250px;
+    transition: 1s ease-in-out all;
+}
+.jalil-heading:hover{
+    transform: scale(1.1)
+}
+.noor-heading{
+    color: #F3E9B5;
+    position: absolute;
+    font-size: 73px;
+    left: -10px;
+    text-align: center;
+    top: 250px;
+    transition: 1s ease-in-out all;
+}
+.noor-heading:hover{
+    transform: scale(1.1);
+}
+.marina-heading{
+    color: #F3E9B5;
+    position: absolute;
+    font-size: 80px;
+    left: 40px;
+    text-align: center;
+    top: 250px;
+    transition: 1s ease-in-out all;
+}
+.marina-heading:hover{
+    transform: scale(1.1);
+}
+.blind-text{
+    mix-blend-mode: overlay;
+}
+
+.noor-orchard{
+    position: relative;
+    width: 65%;
+    top: 100px;
+}
+
+.west-marina{
+    position: relative;
+    width: 65%;
+    top: 80px;
+}
+
+/* footer section */
+
+.footer-section{
+    position: fixed;
+    bottom: 0px;
+}
+.footer-detail{
+    display: flex;
+    justify-content: space-between;
+}
+.social-links a img{
+    width: 13%;
+    padding: 10px;
+}
+.facebook-icon{
+    width: 11% !important;
+}
+
+.pin{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 13%;
+}
+.find-property-small{
+    margin-bottom: 25px;
+}
+.find-property{
+    color: #F3E9B5;
+    word-spacing: 5px;
+    /* font-size: 18px; */
+}
+.find-property-text{
+    font-size: 1.1em;
+}
+.find-property:hover{
+    color: #F3E9B5;
+    text-decoration: none;
+}
+    
+    @media(max-width: 1024px){
+        
+        .bg-circle-img{
+            padding-top: 30px;
+            margin-left: 70px;
+            width: 520px;
+        }
+        .pin{
+            width: 15%;
+        }
+        .find-property{
+            word-spacing: 0px;
+        }
+        .view-projects-link{
+            left: 160px;
+            top: 120px;
+        }
+    }
+
+@media(max-width: 768px){
+    .builder-logo{
+        /* margin-left: 40px; */
+        text-align: center;
+    }
+    .bg-circle-img{
+        width: 375px;
+        margin-left: 12px;
+        margin-top: -30px;
+    }
+    .jalil-garden, .noor-orchard, .west-marina{
+        top: 50px;
+        left: 3px;
+        width: 68%;
+    }
+    .jalil-heading{
+        font-size: 50px;
+        top: 150px;
+    }
+    .noor-heading{
+        font-size: 43px;
+        top: 150px;
+    }
+    .marina-heading{
+        font-size: 48px;
+        top: 150px;
+        left: 26px;
+    }
+    .pin{
+        width: 20%;
+    }
+    .view-projects-link{
+        left: 130px;
+    }
+}
+
+@media(max-width: 480px){
+    .builder-logo img{
+        width: 55%;
+    }
+    .head-quick-tour{
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 425px){
+    .hide-tour{
+        display: none;
+    }
+    .small-screen-tour{
+        display: block;
+    }
+    .main-page{
+        height: 100%;
+    }
+    .bg-logo{
+        display: none;
+    }
+    .light-lion-one{
+    width: 33%;
+    }
+    .light-circle-crown{
+        width: 33%;
+    }
+    .light-lion-two{
+        width: 33%;
+    }
+    .light-crown{
+        width: 15%;
+    }
+    .builder-logo{
+            margin-left: 50px;
+            width: 45%;
+    }
+    .bg-circle-img{
+        width: 100%;
+        margin-top: -30px;
+        margin-left: 70px;
+    }
+    .jalil-garden, .noor-orchard, .west-marina{
+        width: 50%;
+        top: 55px;
+    }
+    .jalil-heading{
+        top: 160px;
+        left: 50px;
+    }
+    .noor-heading{
+        font-size: 51px;
+        left: 35px;
+    }
+    .marina-heading{
+        font-size: 51px;
+        left: 80px;
+    }
+    .pin{
+        width: 30%;
+    }
+    .find-property{
+        font-size: 13px;
+    }
+    .view-projects-link{
+        display: none;
+    }
+}
+
+@media(max-width: 375px){
+    .bg-circle-img{
+        margin-left: 60px;
+    }
+    .jalil-garden, .noor-orchard, .west-marina{
+        width: 55%;
+        top: 45px;
+    }
+    .jalil-heading{
+        top: 150px;
+        left: 30px;
+    }
+    .noor-heading{
+        font-size: 47px;
+        left: 26px;
+    }
+    .marina-heading{
+        left: 60px;
+    }
+    .social-links a img{
+        padding: 5px;
+        width: 12%;
+    }
+    .facebook-icon{
+        width: 10% !important;
+    }
+    .pin{
+        width: 34%;
+        bottom: 5px;
+    }
+    .find-property-small{
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width: 320px){
+    .builder-logo {
+        width: 42%;
+    }
+    .head-quick-tour{
+        font-size: 12px;
+    }
+    .bg-circle-img{
+        margin-left: 47px;
+    }
+    .jalil-heading{
+        top: 125px;
+        font-size: 41px;
+    }
+    .noor-heading{
+        font-size: 41px;
+        left: 20px;
+        top: 130px;
+    }
+    .marina-heading{
+        font-size: 47px;
+        left: 42px;
+        top: 130px;
+    }
+    .facebook-icon{
+        width: 7% !important;
+    }
+    .social-links a img{
+        width: 9%;
+        padding: 1px;
+    }
+    .pin{
+        width: 40%;
+    }
+}

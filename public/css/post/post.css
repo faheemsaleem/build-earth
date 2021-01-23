@@ -1,0 +1,45 @@
+.post-header{
+    z-index: 100;
+}
+.post-bg-img{
+    background-image: url('../../img/post/Jalil Blog Hero.png');
+    background-size: cover;
+    height: 650px;
+}
+.post-layer{
+    background-color:  #AA1D45;
+    opacity: 0.3;
+    height: 650px;
+}
+.post-lion{
+    position: absolute;
+    width: 100%;
+    top: 70px;
+}
+.post-left-lion{
+    width: 80%;
+}
+.post-detail{
+    margin-top: 120px;
+}
+.post-detail-heading{
+    color: #AA1D45;
+    font-size: 55px;
+}
+.post-paragraph{
+    color: #909090;
+    font-size: 20px;
+}
+.post-paragraph-dark{
+    color: #AA1D45;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+}
+.post-sub-heading{
+    color: #AA1D45;
+}
+.post-paragraph li{
+    margin-left: 35px;
+}

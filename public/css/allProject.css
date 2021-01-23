@@ -1,0 +1,151 @@
+.allProject-bg{
+    height: 100vh;
+    background-color: #AA1D45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-one{
+    position: absolute;
+    left: 60px;
+    width: 70%;
+}
+.project-one-circle{
+    width: 90%;
+    margin-top: 30px;
+}
+.project-one-crown{
+    width: 30%;
+}
+
+.project-heading{
+    color: #F3E9B5;
+    position: absolute;
+    font-size: 55px;
+    left: 30px;
+    text-align: center;
+    top: 220px;
+    transition: 1s ease-in-out all;
+}
+.project-heading:hover{
+    transform: scale(1.1);
+}
+.project-heading-two{
+    color: #F3E9B5;
+    position: absolute;
+    font-size: 52px;
+    text-align: center;
+    top: 220px;
+    transition: 1s ease-in-out all;
+}
+.project-heading-two:hover{
+    transform: scale(1.1);
+}
+.project-heading-three{
+    color: #F3E9B5;
+    position: absolute;
+    font-size: 55px;
+    text-align: center;
+    top: 220px;
+    left: 50px;
+    transition: 1s ease-in-out all;
+}
+.project-heading-three:hover{
+    transform: scale(1.1);
+}
+.project-blind-text{
+    mix-blend-mode: overlay;
+}
+
+@media(max-width: 768px){
+    .project-one{
+        left: 37px;
+    }
+    .project-one-circle{
+        width: 95%;
+    }
+    .project-heading{
+        font-size: 37px;
+        left: 10px;
+        top: 145px;
+    }
+    .project-heading-two{
+        font-size: 35px;
+        left: 10px;
+        top: 145px;
+    }
+    .project-heading-three{
+        font-size: 37px;
+        left: 25px;
+        top: 145px;
+    }
+}
+@media(max-width: 425px){
+    .allProject-bg{
+        padding-bottom: 30px;
+        height: 100%;
+    }
+    .single-project{
+        margin-top: 75px;
+    }
+    .project-one{
+        left: 65px;
+    }
+    .project-heading{
+        font-size: 55px;
+        left: 35px;
+        top: 230px;
+    }
+    .project-heading-two{
+        font-size: 52px;
+        left: 24px;
+        top: 230px;
+    }
+    .project-heading-three{
+            font-size: 65px;
+            left: 30px;
+            top: 230px;
+    }
+}
+
+@media(max-width: 375px){
+    .project-one{
+        left: 60px;
+    }
+    .project-heading{
+        font-size: 48px;
+        left: 35px;
+        top: 200px;
+    }
+    .project-heading-two{
+        font-size: 45px;
+        left: 24px;
+        top: 215px;
+    }
+    .project-heading-three{
+            font-size: 55px;
+            left: 30px;
+            top: 210px;
+    }
+}
+
+@media(max-width: 320px){
+    .project-one{
+        left: 50px;
+    }
+    .project-heading{
+        font-size: 40px;
+        left: 30px;
+        top: 175px;
+    }
+    .project-heading-two{
+        font-size: 37px;
+        left: 13px;
+        top: 175px;
+    }
+    .project-heading-three{
+        font-size: 45px;
+        left: 30px;
+        top: 177px;
+    }
+}
